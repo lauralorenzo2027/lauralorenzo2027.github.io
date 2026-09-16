@@ -1,0 +1,226 @@
+/* ==============================
+   PALETTE & GLOBAL VARS
+   ============================== */
+:root {
+  --primary: #2E8B57;       /* SeaGreen */
+  --primary-light: #20B2AA; /* LightSeaGreen */
+  --accent: #C7446D;        /* Magenta */
+  --accent-dark: #8B008B;   /* DarkMagenta */
+  --background: #FAFAFA;
+  --text: #333333;
+}
+
+/* ==============================
+   BODY STRUCTURE
+   ============================== */
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--background);
+  padding: 0 20px;
+}
+
+/* ==============================
+   HEADER & MAIN NAV
+   ============================== */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: var(--primary);
+  margin-bottom: 0.2em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+/* ==============================
+   ALL-PURPOSE NAV
+   ============================== */
+
+.allpurpose-nav {
+  text-align: center;
+  margin: 1.5em auto;
+   width: 100%;
+  font-size: 1.1em;
+}
+
+.allpurpose-nav a{
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 0.5em;
+   transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+/* Visited */
+.allpurpose-nav a:visited {
+  color: var(--primary);
+}
+
+/* hover */
+
+.allpurpose-nav a:hover {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  text-decoration: none;
+}
+
+/* ==============================
+   CONTENT
+   ============================== */
+main h2 {
+  color: var(--primary);
+  margin-top: 30px;
+}
+
+main h3 {
+  color: var(--accent);
+  margin-top: 30px;
+}
+
+main p {
+  margin-bottom: 1.2em;
+}
+
+main a,
+main a:visited {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+main a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+strong {
+  color: var(--primary);
+}
+
+.photo {
+  display: block;
+  margin: 0 auto 20px
+  max-width: 50%;
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+footer a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/* ==============================
+   BUTTONS & HIGHLIGHTS
+   ============================== */
+button, .btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--accent-dark);
+}
+
+/* ==============================
+   IMAGE LINKS
+   ============================== */
+
+.image-link img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  transition: transform 0.25s ease;
+}
+
+.image-link img:hover {
+  transform: scale(1.1);
+}
+
+/* ==============================
+   CONTACTS
+   ============================== */
+#contacts {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.contact-icon {
+  height: 60px;
+  transition: transform 0.2s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}
+
+.contact-emails {
+  margin-top: 30px;
+}
+
+.contact-emails a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+.contact-emails p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.contact-invite {
+  margin-top: 25px;
+  font-style: italic;
+  font-size: 1.2rem;
+}
