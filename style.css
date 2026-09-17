@@ -2,11 +2,11 @@
    PALETTE & GLOBAL VARS
    ============================== */
 :root {
-  --primary: #AF5031;       /* Terracotta */
-  --primary-light: #FDABA5; /* Cherry Blossom */
-  --accent: #7FC7CC;        /* Sky Blue */
+  --primary: #2e8b57;       /* Sea Green */
+  --primary-light: #3CB371; /* Medium Sea Green */
+  --accent: #092F33;        /* Deep Sea */
   --accent-dark: #092F33;   /* Deep Sea */
-  --background: #E4CBA9; /* Sand */
+  --background: #FFFACD; /* Lemon Chiffon */
   --text: #4B5B34; /* Moss Green */
 }
 
