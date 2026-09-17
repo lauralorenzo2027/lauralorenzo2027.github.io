@@ -4,9 +4,9 @@
 :root {
   --primary: #2e8b57;       /* Sea Green */
   --primary-light: #3CB371; /* Medium Sea Green */
-  --accent: #092F33;        /* Deep Sea */
+  --accent: #FDABA5;        /* Cherry Blossom */
   --accent-dark: #092F33;   /* Deep Sea */
-  --background: #FDABA5; /* Cherry Blossom */ /* #FFFACD Lemon Chiffon */
+  --background: #FFFACD;  /* Lemon Chiffon */
   --text: #4B5B34; /* Moss Green */
 }
 
