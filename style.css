@@ -2,12 +2,12 @@
    PALETTE & GLOBAL VARS
    ============================== */
 :root {
-  --primary: #2E8B57;       /* SeaGreen */
+  --primary: #2E8B57;       /* Sand */
   --primary-light: #20B2AA; /* LightSeaGreen */
   --accent: #C7446D;        /* Magenta */
   --accent-dark: #8B008B;   /* DarkMagenta */
-  --background: #FAFAFA;
-  --text: #333333;
+  --background: #E4CBA9; /* Sand */
+  --text: #4B5B34; /* Moss Green */
 }
 
 /* ==============================
