@@ -224,3 +224,24 @@ button:hover, .btn:hover {
   font-style: italic;
   font-size: 1.2rem;
 }
+
+/* ==============================
+   MAPS
+   ============================== */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Rapporto di forma 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px; /* Opzionale: per angoli arrotondati */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
